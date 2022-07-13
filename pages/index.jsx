@@ -9,9 +9,7 @@ const index = () => {
         <meta name="description" content="sameetmoosavi website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <h1 className="text-9xl">Welcome to Next App</h1>
-      </main>
+      <h1 className="text-9xl">Welcome to Next App</h1>
     </div>
   )
 }
