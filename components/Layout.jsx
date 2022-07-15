@@ -1,18 +1,19 @@
 import Head from 'next/head'
-import styles from '../styles/Layout.module.css'
+import Navbar from '../components/Navbar'
 
 const Layout = ({children}) => {
   return (
-    <>
+    <main className='flex flex-col p-3 pb-8 m-auto container md:w-3/6'>
       <Head>
         <title>Sameet@Moosavi</title>
         <meta name='description' content='sameetmoosavi website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className={`w-3/5 container ${styles.main}`}>
+      <Navbar />
+      <div className='pt-14'>
         {children}
-      </main>
-    </>
+      </div>
+    </main>
   )
 }
 
