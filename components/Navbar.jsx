@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className='flex items-center'>
-        <span className='font-bold text-white text-lg'>Sameet</span><span className='text-red-600 text-lg'>@</span><span className='font-bold text-white text-lg'>Moosavi</span>
+        <Link href='/'><a><span className='font-bold text-white text-lg'>Sameet</span><span className='text-red-600 text-lg'>@</span><span className='font-bold text-white text-lg'>Moosavi</span></a></Link>
         <div className='ml-auto md:hidden'>
           <div className="relative inline-block text-left">
             <div>
