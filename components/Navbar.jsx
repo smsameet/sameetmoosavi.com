@@ -29,7 +29,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <div className='ml-9 flex'>
+        <div className='ml-9 md:flex hidden'>
           <Link href='/works' target='_blank'><a className="text-white hover:text-yellow-500 px-4 py-2 text-md" role="menuitem" tabindex="-1" id="menu-item-1">Works</a></Link>
           <Link href='/posts' target='_blank'><a className="text-white hover:text-yellow-500 px-4 py-2 text-md" role="menuitem" tabindex="-1" id="menu-item-1">Posts</a></Link>
         </div>
