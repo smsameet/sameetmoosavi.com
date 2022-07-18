@@ -1,6 +1,11 @@
 const index = () => {
   return (
-    <h2 className='text-white mt-5 p-3 bg-red-600 rounded-md'>Hello I&apos;m full-stack and software developer based in Iran!</h2>
+    <>
+      <div className='flex justify-center m-10'><img className='' src='/favicon.ico' width='200px' height='200px'></img></div>
+      <div className='flex m-auto mt-5 justify-center'>
+        <h2 className='text-white p-3 bg-gray-600 rounded-md'>Hello I&apos;m full-stack and software developer based in Iran!</h2>
+      </div>
+    </>
   )
 }
 
