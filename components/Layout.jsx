@@ -9,7 +9,7 @@ const Layout = ({children}) => {
         <meta name='description' content='sameetmoosavi website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='container md:w-4/6 m-auto p-5'>
+      <div className='container md:w-3/6 m-auto p-4'>
         <Navbar />
         {children}
       </div>
