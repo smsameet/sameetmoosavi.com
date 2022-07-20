@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Navbar from './Navbar'
 
 const Layout = ({children}) => {
   return (
@@ -10,7 +9,6 @@ const Layout = ({children}) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='container md:w-3/6 m-auto p-4'>
-        <Navbar />
         {children}
       </div>
     </main>
