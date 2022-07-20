@@ -2,16 +2,19 @@ import Head from 'next/head'
 
 const Layout = ({children}) => {
   return (
-    <main>
-      <Head>
-        <title>Sameet@Moosavi</title>
-        <meta name='description' content='sameetmoosavi website' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <div className='container md:w-5/12 m-auto p-4 mb-10'>
+    <div className='container md:w-5/12 m-auto p-4 mb-10'>
+      <main>
+        <Head>
+          <title>Sameet@Moosavi</title>
+          <meta name='description' content='sameetmoosavi website' />
+          <link rel='icon' href='/favicon.ico' />
+        </Head>
         {children}
-      </div>
-    </main>
+      </main>
+      <footer className='mt-10 text-center'>
+        <span className='text-white'>@2022 Sameet Moosavi. all rights reserved</span>
+      </footer>
+    </div>
   )
 }
 
