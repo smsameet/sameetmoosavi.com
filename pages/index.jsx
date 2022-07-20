@@ -2,7 +2,7 @@ const index = () => {
   return (
     <>
       <div className='flex justify-center m-5'>
-        <img className='border-2 border-white rounded-full shadow-lg shadow-black' src='/favicon.ico' width='200px' height='200px'></img>
+        <img className='border-2 border-white rounded-full shadow-black shadow-lg' src='/favicon.ico' width='200px' height='200px'></img>
       </div>
       <div className='mt-5 flex flex-col'>
         <h1 className='text-2xl m-auto text-white p-3 font-bold'>SameetMoosavi ( Developer / Designer )</h1>
