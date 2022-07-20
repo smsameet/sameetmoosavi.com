@@ -22,10 +22,10 @@ const index = () => {
       </p>
       <h2 className='text-white text-xl font-bold w-fit border-b-4 border-blue-500 mt-5'>Portfolio</h2>
       <div className='grid md:grid-cols-2 gap-5 mt-5'>
-        <a href='https://github.com/smsameet/SameetDjangoBlog' target='_blank'><img className='rounded-xl border-2 border-white' src='/sameetdjangoblog.jpg' width='100%'/></a>
-        <a href='https://github.com/smsameet/sameetmoosavi.com' target='_blank'><img className='rounded-xl border-2 border-white' src='/sameetBlog.png' width='100%'/></a>
-        <a href='https://github.com/VSNeoVim/VSNeoVim' target='_blank'><img className='rounded-xl border-2 border-white' src='/vsneovim.png' width='100%'/></a>
-        <a href='https://github.com/smsameet'><img className='rounded-xl border-2 border-white' src='/myarchsetup.png' width='100%'/></a>
+        <a href='https://github.com/smsameet/SameetDjangoBlog' target='_blank'><img className='rounded-xl border-2 border-white hover:border-blue-500' src='/sameetdjangoblog.jpg' width='100%'/></a>
+        <a href='https://github.com/smsameet/sameetmoosavi.com' target='_blank'><img className='rounded-xl border-2 border-white hover:border-blue-500' src='/sameetBlog.png' width='100%'/></a>
+        <a href='https://github.com/VSNeoVim/VSNeoVim' target='_blank'><img className='rounded-xl border-2 border-white hover:border-blue-500' src='/vsneovim.png' width='100%'/></a>
+        <a href='https://github.com/smsameet'><img className='rounded-xl border-2 border-white hover:border-blue-500' src='/myarchsetup.png' width='100%'/></a>
       </div>
       <h2 className='text-white text-xl font-bold mt-5 w-fit border-b-4 border-blue-500'>Skills</h2>
       <div className='w-12/12 ml-auto flex flex-col text-lg'>
