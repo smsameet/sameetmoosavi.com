@@ -103,7 +103,7 @@ const index = () => {
         </div>
         <span className='text-white mt-5'>C</span>
         <div className="bg-gray-200 h-1 mt-3">
-          <div className="bg-blue-500 h-1 w-4/6 flex items-center justify-end">
+          <div className="bg-blue-500 h-1 w-3/6 flex items-center justify-end">
             <svg className="icon icon-tabler icon-tabler-check bg-blue-500 p-0.5 h-6 w-6 rounded-full shadow items-center justify-center" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z"></path>
                 <path d="M5 12l5 5l10 -10"></path>
